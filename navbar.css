@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica;
+   
+}
+.logo img{
+    width: 200px;
+    float: left;
+    height: auto;
+    margin-left: 50px; 
+    margin-top: 20px;
+}
+.header{
+    
+    height:100vh;
+    background-image: url(../images/ritesh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+   float: right;
+     
+   margin-top: 10px;
+   
+}
+ul li{
+   padding: 15px;
+    display: inline-block; 
+}
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    color: white;
+    background-color: blue;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 2px solid white;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.6s ease;
+}

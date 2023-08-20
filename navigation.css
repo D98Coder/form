@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica;
+}
+.header {
+  height: 100vh;
+  background-image: url(../images/ritesh.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.header .grow-full {
+  flex-grow: 1;
+  width: 100%;
+}
+.logo img {
+  width: 200px;
+  float: left;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.manu {
+  height: auto;
+  width: 100%;
+}
+.manu ul {
+  display: flex;
+  align-items: center;
+}
+.manu ul li {
+  display: inline-block;
+  padding: 15px;
+}
+.manu ul li a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+ul li a {
+  transition: 0.6s ease;
+  border: 1px solid transparent;
+  color: black;
+}
+ul li .active a {
+  background-color: #fff;
+  color: #000;
+}
+.manu ul li > a:hover {
+  background-color: red;
+  color: white;
+}
+.sub-manu ul li {
+  position: relative;
+}
+.sub-manu {
+  display: none;
+}
+.sub-manu ul {
+  right: 10px;
+  background-color: rgb(220, 220, 221);
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.manu ul > li:hover .sub-manu {
+  display: block;
+  position: absolute;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 60px;
+  color: white;
+}
+.button {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+  transition: 0.6s ease;
+}

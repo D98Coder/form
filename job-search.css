@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+   
+}
+.header{
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+   
+}
+.apply{
+    margin-left: 20px;
+}
+.form-container{
+   
+  
+}
+.form-control{
+    gap: 10px;
+    flex-direction: rows;
+}
+label{
+    font-size: 14px;
+}
